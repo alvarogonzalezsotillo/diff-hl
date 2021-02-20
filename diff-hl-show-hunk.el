@@ -48,7 +48,7 @@
 
 ;;; Code:
 
-(require 'inline-popup)
+(require 'diff-hl-inline-popup)
 (require 'diff-hl)
 
 (defvar diff-hl-show-hunk-mode-map

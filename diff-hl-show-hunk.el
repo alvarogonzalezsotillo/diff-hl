@@ -275,7 +275,7 @@ BUFFER is a buffer with the hunk."
           (setq diff-hl-show-hunk--hide-function (lambda ()
                                                    (overlay-put invisible-overlay 'invisible nil)
                                                    (delete-overlay invisible-overlay)
-                                                   (inline-popup-hide)))))
+                                                   (diff-hl-inline-popup-hide)))))
       (let ((height
              (when smart-lines
                (when (not (eq 0 original-lines-number))
